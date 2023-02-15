@@ -1,0 +1,26 @@
+-npx create react app
+
+site : 
+https://www.npmjs.com/
+https://cdnjs.com / search ur cdn need
+https://getbootstrap.com / use i or cdn
+https://fontawesome.com / use i or cdn
+
+public : css js fonts
+src : assets componenets helpers services
+
+index.html dir rtl for bootstrap
+
+delete Additional file and text
+
+Font : dl ur font and use transfonter.org to prepare for browser useable
+
+create color pallet sabat
+
+use index.jsx for Export all Components
+
+azbzar : Lodash, thorttle, debounce, formik ,yup, immer,
+concurrently npm i -D concurrently , serve ,react-portal,react-error-boundry , react-helmet-async , react-icons
+
+site : openBase.com ranking library ha
+site :  broweserslist.dev last2Version midi mige ro chand darsad az broweser ha kar mikone application

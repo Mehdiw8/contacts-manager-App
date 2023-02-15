@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "fullname": "mm",
+      "photo": "https://55445.ir",
+      "mobile": 98898989,
+      "email": "w@gmail.com",
+      "job": "nonrr",
+      "group": "1",
+      "id": 1
+    },
+    {
+      "fullname": "nim ",
+      "photo": "https://h.ir",
+      "job": "n",
+      "email": "none@gmail.com",
+      "mobile": 89898989,
+      "group": "1",
+      "id": 2
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "همکار"
+    },
+    {
+      "id": "2",
+      "name": "دوست"
+    },
+    {
+      "id": "3",
+      "name": "فامیل"
+    },
+    {
+      "id": "4",
+      "name": "سرویس"
+    },
+    {
+      "id": "5",
+      "name": "آشنا"
+    }
+  ]
+}
