@@ -44,7 +44,6 @@ const App = () => {
 
         const { data: contactsData } = await getAllContacts();
         const { data: groupsData } = await getAllGroups();
-
         setContacts(contactsData);
         setFilteredContacts(contactsData);
         setGroups(groupsData);

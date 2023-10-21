@@ -1,13 +1,9 @@
-import SpinnerGIF from "../assets/Spinner.gif";
+import "./spinner.css";
 
 const Spinner = () => {
   return (
     <>
-      <img
-        src={SpinnerGIF}
-        className="d-block m-auto"
-        style={{ width: "200px" }}
-      />
+      <span class="loader"></span>
     </>
   );
 };

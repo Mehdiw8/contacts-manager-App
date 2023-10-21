@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-const SERVER_URL = 'https://contactsapi.mehdiw8.ir';
+const SERVER_URL = "https://json-server-teal-one.vercel.app";
 
 // @desc Get All Contacts
 // @route GET http://localhost:9000/contacts
