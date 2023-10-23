@@ -1,13 +1,14 @@
-import { Link } from 'react-router-dom';
-import { useContext } from 'react';
+import { Link } from "react-router-dom";
+import { useContext } from "react";
 
-import { ContextContact } from '../../context/contextContact';
-import Contact from './Contact';
-import Spinner from '../Spinner';
-import { CURRENTLINE, ORANGE, PINK } from '../../helpers/colors';
+import { ContextContact } from "../../context/contextContact";
+import Contact from "./Contact";
+import Spinner from "../Spinner";
+import { CURRENTLINE, ORANGE, PINK } from "../../helpers/colors";
 
 const Contacts = () => {
-  const { deleteContact, loading, filteredContacts } = useContext(ContextContact);
+  const { deleteContact, loading, filteredContacts } =
+    useContext(ContextContact);
 
   return (
     <>
@@ -17,7 +18,7 @@ const Contacts = () => {
             <div className="col">
               <p className="h3 float-end">
                 <Link
-                  to={'/contacts/add'}
+                  to={"/contacts/add"}
                   className="btn m-2"
                   style={{ backgroundColor: PINK }}
                 >
@@ -50,8 +51,11 @@ const Contacts = () => {
                 <p className="h3" style={{ color: ORANGE }}>
                   مخاطب یافت نشد ...
                 </p>
+                <p className="h3" style={{ color: ORANGE }}>
+                  فیلترشکن روشن کن 🤨
+                </p>
                 <img
-                  src={require('../../assets/no-found.gif')}
+                  src={require("../../assets/no-found.gif")}
                   alt="پیدا نشد"
                   className="w-25"
                 />
